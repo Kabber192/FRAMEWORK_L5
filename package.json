@@ -1,15 +1,12 @@
 {
-  "name": "framework",
+  "name": "radik",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "node": "^18.20.8",
-    "nodemon": "^3.1.9"
-  }
+  "description": ""
 }
